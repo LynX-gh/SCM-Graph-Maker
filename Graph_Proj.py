@@ -16,10 +16,10 @@ def loadenv():
 
 def plot(skins, cookie):
     #Intitialize the axes
-    plt.style.use('dark_background')
+    plt.style.use('seaborn')
     plt.clf()
-    fig, ax = plt.subplots(9)
-    i = 0
+    fig = plt.figure()
+    ax = plt.axes()
 
     #Create a plot for each skin
     for skin, market_hash in skins.items():
@@ -38,19 +38,15 @@ def plot(skins, cookie):
 
         price_df_clean = price_df.groupby('Date', as_index = False).mean()
         price_df_clean.to_csv('Data\\{}.csv'.format(skin))
-        price_df_clean.plot(x = 'Date', y = 'Price', ax = ax[i], sharex = True, alpha = 0.8, legend = None)
-        ax[i].set_title(skin)
-        i += 1
+        price_df_clean.plot(y = 'Price', x = 'Date', ax = ax, label = skin, alpha = 0.8)
 
     #Set labels and grid
-    fig.suptitle('Operation Cases')
-    for axis in ax.flat:
-        axis.set(xlabel='Date')
-        axis.label_outer()
+    ax.set_xlabel('Days After Release')
+    ax.set_ylabel('SCM Price USD')
     plt.grid()
 
     #Save the graph and show on screen
-    #plt.savefig('plot3.svg', dpi=300)
+    plt.savefig('plot3.svg', dpi=300)
     plt.show()
 
 if __name__ == "__main__":
