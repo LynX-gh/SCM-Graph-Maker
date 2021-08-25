@@ -20,7 +20,7 @@ skins = {
           'skin2 name' : 'market_hash'
         }
 ```
-#### \*To find the 'market hash' go to the item's SCM page and copy the last String in the url
+#### \*To find the 'market hash' go to the item's SCM page and copy the last string in the url (highlighted below)
 ![Broken Fang vs Shattered Web](market_hash.png)
 ##### __\*You can add as many as you want but beware of the graph getting messy__
 
