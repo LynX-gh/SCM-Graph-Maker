@@ -12,7 +12,7 @@ steamRememberLogin =
 steamMachineAuth76561198416733081 =
 ```
 
-#### 3. Change the SKINS dictionary depending on the number of / skin you want to compare.
+#### 3. Change the SKINS dictionary depending on the skins you want to compare. ( You can add as many as you want but beware the graph will get messy )
 
 ```python
 skins = { 
