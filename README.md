@@ -20,10 +20,10 @@ skins = {
           'skin2 name' : 'market_hash'
         }
 ```
-*( You can add as many as you want but beware the graph will get messy )*
-##### *To find the 'market hash' go to the item's SCM page and copy the last String in the url
+#### \*To find the 'market hash' go to the item's SCM page and copy the last String in the url
+##### __\*You can add as many as you want but beware of the graph getting messy__
 
-Some Example Comparisons
+#### Some Example Comparisons
 
 ![Broken Fang vs Shattered Web](plot.png)
 ![Glove Case vs Hydra Case](plot2.png)
