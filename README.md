@@ -21,9 +21,10 @@ skins = {
         }
 ```
 #### \*To find the 'market hash' go to the item's SCM page and copy the last String in the url
+![Broken Fang vs Shattered Web](market_hash.png)
 ##### __\*You can add as many as you want but beware of the graph getting messy__
 
 #### Some Example Comparisons
 
 ![Broken Fang vs Shattered Web](plot.png)
-![Glove Case vs Hydra Case](plot2.png)
+![Glove Case vs Hydra Case](plot3.svg)
