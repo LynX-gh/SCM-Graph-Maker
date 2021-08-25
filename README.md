@@ -12,14 +12,15 @@ steamRememberLogin =
 steamMachineAuth76561198416733081 =
 ```
 
-#### 3. Change the SKINS dictionary depending on the skins you want to compare. ( You can add as many as you want but beware the graph will get messy )
+#### 3. Change the SKINS dictionary depending on the skins you want to compare. 
 
 ```python
 skins = { 
-          'skin1 name' : 'skin1 market hash',
-          'skin2 name' : 'skin2 market hash'
+          'skin1 name' : 'market_hash',
+          'skin2 name' : 'market_hash'
         }
 ```
+*( You can add as many as you want but beware the graph will get messy )*
 ##### *To find the 'market hash' go to the item's SCM page and copy the last String in the url
 
 Some Example Comparisons
