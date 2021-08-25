@@ -2,7 +2,7 @@
 ## Compare Price History of multiple items from the steam community market. By plotting them on the same graph
 
 #### 1. Create a `Cookies.env` file in the same directory as the program and open it up with your text editor
-#### 2. Login to SCM on a browser and access the cookies on the page and copy paste them in the below order
+#### 2. Login to Steam on a browser and access the cookies on the page and copy paste them in the below order
 
 ```env
 steamLogin =
