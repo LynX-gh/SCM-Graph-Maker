@@ -9,7 +9,7 @@ steamLogin =
 sessionid =
 steamparental =
 steamRememberLogin =
-steamMachineAuth76561198416733081 =
+steamMachineAuthsteamID64 =
 ```
 
 #### 3. Change the SKINS dictionary depending on the skins you want to compare. 
