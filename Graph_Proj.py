@@ -10,7 +10,7 @@ def loadenv():
               'sessionid' : os.getenv('sessionid'), 
               'steamparental' : os.getenv('steamparental'),
               'steamRememberLogin' : os.getenv('steamRememberLogin'), 
-              'steamMachineAuth76561198416733081' : os.getenv('steamMachineAuth76561198416733081')
+              'steamMachineAuthsteamID64' : os.getenv('steamMachineAuthsteamID64')
               }
     return cookie
 
