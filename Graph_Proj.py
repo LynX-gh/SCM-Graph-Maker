@@ -24,7 +24,7 @@ def plot(skins, cookie):
     #Create a plot for each skin
     for skin, market_hash in skins.items():
         param = ['US', '1', market_hash]
-        url = 'http://steamcommunity.com/market/pricehistory/?country={}&currency={}&appid=730&market_hash_name={}'.format(param[0], param[1], param[2])
+        url = 'https://steamcommunity.com/market/pricehistory/?country={}&currency={}&appid=730&market_hash_name={}'.format(param[0], param[1], param[2])
 
         response = requests.get(url, cookies = cookie)
         data = response.json()
