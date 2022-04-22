@@ -130,3 +130,5 @@ dmypy.json
 
 #visual studio files
 .vs/
+*.pyproj
+*.sln
